@@ -5,6 +5,9 @@
     font-family: 'Open Sans', sans-serif;
     color: rgb(13, 35, 95);
 }
+body{
+    background-color: whitesmoke;
+}
 
 // navbar
 nav{
@@ -19,7 +22,7 @@ nav{
         font-size: 1rem;
     }
     span{
-        font-size: .8rem;
+        font-size: .7rem;
     }
 }
 
@@ -41,56 +44,73 @@ nav{
 
 #gallery{
     width: 100%;
-    height: 500px;
+    height: 750px;
     display: grid;
     gap: 10px;
     padding: 0 10px;
+    grid-template-areas: 
+        "satu satu tiga"
+        "tujuh empat empat"
+        "lima lima lima"
+        "lima lima lima"
+        "dua dua enam"
+        "delapan sembilan sembilan"
+        
+    ;
     grid-template-columns: 1fr 1fr 1fr;
-    // grid-template-rows: 1fr 1fr 1fr
     div{
         background-color: aqua;
     }
     :nth-child(1){
+        grid-area: satu;
         background: url(img/1.jpg);
         background-position: center;
         background-size: cover;
     }
     :nth-child(2){
+        grid-area: dua;
         background: url(img/2.jpg);
         background-position: center;
         background-size: cover;
     }
     :nth-child(3){
-        background: url(img/3.jpg);
+        grid-area: tiga;
+        background: url(img/3.jpeg);
         background-position: center;
         background-size: cover;
     }
     :nth-child(4){
+        grid-area: empat;
         background: url(img/4.jpg);
         background-position: center;
         background-size: cover;
     }
     :nth-child(5){
+        grid-area: lima;
         background: url(img/5.jpg);
         background-position: center;
         background-size: cover;
     }
     :nth-child(6){
+        grid-area: enam;
         background: url(img/6.jpg);
         background-position: center;
         background-size: cover;
     }
     :nth-child(7){
+        grid-area: tujuh;
         background: url(img/7.jpg);
         background-position: center;
         background-size: cover;
     }
     :nth-child(8){
+        grid-area: delapan;
         background: url(img/8.jpg);
         background-position: center;
         background-size: cover;
     }
     :nth-child(9){
+        grid-area: sembilan;
         background: url(img/9.jpg);
         background-position: center;
         background-size: cover;
