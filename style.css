@@ -162,6 +162,12 @@ footer a {
   color: white;
   text-decoration: none;
 }
+footer .cursor {
+  position: absolute;
+  transform: translateY(235%);
+  right: 20%;
+  opacity: 0.6;
+}
 
 @media only screen and (max-width: 780px) {
   footer {
