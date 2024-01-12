@@ -3,12 +3,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
-  color: rgb(13, 35, 95);
 }
 
 body {
   background: linear-gradient(#F9FCFF 20%, #DEE4EA);
   background-attachment: fixed;
+  color: rgb(13, 35, 95);
 }
 
 #container {
@@ -142,7 +142,6 @@ footer {
   margin: auto;
   max-width: 720px;
   border-radius: 30px 30px 0 0;
-  text-align: center;
   font-size: 0.85rem;
   font-weight: 500;
   background-color: rgba(20, 46, 117, 0.7);
@@ -150,13 +149,28 @@ footer {
   transition: 0.2s;
   display: flex;
   justify-content: space-between;
+  box-shadow: rgb(0, 0, 0) 0px 0px 55px -20px;
 }
 footer div {
   color: white;
+}
+footer a {
+  font-size: 1rem;
+  font-weight: 800;
+  font-style: italic;
+  text-shadow: black 1px 3.5px 10px;
+  color: white;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 780px) {
   footer {
     margin: 40px 4% 0 4%;
+  }
+  footer p {
+    font-size: 0.7rem;
+  }
+  footer a {
+    font-size: 0.85rem;
   }
 }/*# sourceMappingURL=style.css.map */
