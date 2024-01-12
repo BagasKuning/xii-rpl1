@@ -6,7 +6,7 @@
 }
 
 body {
-  background: linear-gradient(#F9FCFF 20%, #DEE4EA);
+  background: linear-gradient(#F9FCFF 38%, #DEE4EA);
   background-attachment: fixed;
   color: rgb(13, 35, 95);
 }
@@ -166,7 +166,7 @@ footer .cursor {
   position: absolute;
   transform: translateY(235%);
   right: 20%;
-  opacity: 0.6;
+  opacity: 0.3;
 }
 
 @media only screen and (max-width: 780px) {
